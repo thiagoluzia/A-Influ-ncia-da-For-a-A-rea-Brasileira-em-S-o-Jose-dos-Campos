@@ -84,6 +84,11 @@ a:hover {
 .img-articlo-home {
 	width: 480px;
 }
+.img-articlo-equipe {
+	width: 280px;
+	border-radius: 100%;
+
+}
 .content {
 	width: 800px;
 	float: left;
@@ -97,6 +102,10 @@ a:hover {
 .left-panel-in {
 	text-align: justify;
 	clear: both;
+}
+.left-panel-in .team{
+	display: block;
+	margin-left: 250px;
 }
 .title {
 	font-size: 18px;
