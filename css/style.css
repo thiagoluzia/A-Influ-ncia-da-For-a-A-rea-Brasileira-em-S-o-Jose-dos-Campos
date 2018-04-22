@@ -81,10 +81,10 @@ a:hover {
 .menu ul li a:hover {
 	color: #4BC4EF;
 }
-.img-article-home {
+.img-articlo-home {
 	width: 480px;
 }
-.img-article-equipe {
+.left-panel-in .img-article-equipe {
 	width: 280px;
 	border-radius: 100%;
 
@@ -103,9 +103,8 @@ a:hover {
 	text-align: justify;
 	clear: both;
 }
-.left-panel-in .team{
-	display: block;
-	margin-left: 250px;
+.left-panel-in img{
+	width: 480px;
 }
 .title {
 	font-size: 18px;
