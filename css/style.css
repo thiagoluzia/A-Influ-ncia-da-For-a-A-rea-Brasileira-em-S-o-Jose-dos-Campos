@@ -1,3 +1,7 @@
+/*INICIO DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, DE FORMA GERAL ESSAS PROPRIEDADES SAO APLICADAS EM TODAS AS DEMAIS PAGINAS */
+/********************************************/
+/*Definiremos fontes, tamanhos, estilos, cor, cor de fundo, margens e espaçamento interno*/
+/**********************************************/
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -9,6 +13,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
 	margin: 0px;
 }
+/*INICIO DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, DE FORMA GERAL ESSAS PROPRIEDADES SAO APLICADAS EM TODAS AS DEMAIS PAGINAS */
+
+/*INICIO DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, NA PARTE DE MENU SUPERIOR,DE FORMA GERAL ESSAS PROPRIEDADES SAO APLICADAS EM TODAS AS DEMAIS PAGINAS */
+/********************************************/
+/*Definiremos cor de texto, decoração do texto 
+e efeito ao passar o mouse*/
+/**********************************************/
 a {
 	color: #035c7a;
 	text-decoration: none;
@@ -16,6 +27,9 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+/*FIM DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, NA PARTE DE MENU SUPERIOR,DE FORMA GERAL ESSAS PROPRIEDADES SAO APLICADAS EM TODAS AS DEMAIS PAGINAS */
+
+/*INICIO DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, ESTAMOS REFERINDO AO TAMNHO EM GERAL E CORES*/
 .main {
 	width: 840px;
 	margin: 0px auto;
@@ -25,7 +39,18 @@ a:hover {
 	width: 800px;
 	float: left;
 	padding: 20px;
+	margin-bottom: 30px;
 }
+/*FIM DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE, ESTAMOS REFERINDO AO TAMNHO EM GERAL E CORES*/
+
+/*INICIO DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE NA PARTE DO CABEÇALHO*/
+/********************************************/
+/*Definiremos largua, posicionamento, imagem 
+como plano de fundo e suas propriedades, 
+alinhamento do texto, tamanho da imagem 
+no cabeçalho, seu posicionamento, fonte e 
+suas propriedades e margem*/
+/**********************************************/
 .header {
 	width: 800px;
 	float: left;
@@ -47,7 +72,6 @@ a:hover {
 	color: #black;
 	margin-top: 230px;
 	margin-right: 72px;
-
 }
 .header-img p {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -57,6 +81,15 @@ a:hover {
 	margin-top: 10px;
 	margin-right: 136px;
 }
+/*FIM DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE NA PARTE DO CABEÇALHO*/
+
+/*INICIO  DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE NA PARTE DO MENU SUPERIOR*/
+/********************************************/
+/*Definiremos cor de fundo, tamanho, posicionamento,
+ estilo de lista,forma do elemento a ser exibida, 
+ tipos de fonte e suas propriedades, espacamento 
+ interno e efeitos */
+/**********************************************/
 .menu {
 	background-color: #000000;
 	width: 800px;
@@ -81,6 +114,13 @@ a:hover {
 .menu ul li a:hover {
 	color: #4BC4EF;
 }
+/*FIM  DO ESTILO A SER USADO BASICAMENTE EM TODO O SITE NA PARTE DO MENU SUPERIOR*/
+
+/*INICIO  DO ESTILO A SER USADO BASICAMENTE EM TODOS ARTIGOS QUE FICARAM EM VARIAS PAGINAS*/
+/********************************************/
+/*Definiremos tamanho geral e interno, posicionamento,
+ espacamento, fonte e suas propriedades e cores*/
+/**********************************************/
 .img-articlo-home {
 	width: 480px;
 }
@@ -118,17 +158,24 @@ a:hover {
 	border-bottom-width: 1px;
 	border-bottom-color: #CCCCCC;
 }
+/*FIM  DO ESTILO A SER USADO BASICAMENTE EM TODOS ARTIGOS QUE FICARAM EM VARIAS PAGINAS*/
+
+/*INICIO PAINEL ESQUERDO*/
+/********************************************/
+/*Definiremos tamanho, posicionamento, restriçao de posicionamento(clear),
+estilo de lista, espaçamento interno, bordas, decoração de texto e cores*/
+/**********************************************/
 .right-panel {
 	width: 250px;
-	float: right;
+	margin-top: 390px;
+	position: absolute;
+	margin-left: 520px;
 }
 .right-panel-in {
 	clear: both;
-	clear: both;
     width: 250px;
-    margin-left: 550px;
+    margin-left: 30px;
     position: absolute;
-    margin-top: 360px;
 }
 .right-panel-in h3 {
 	font-size: 20px;
@@ -140,7 +187,6 @@ a:hover {
 }
 .right-panel-in ul {
 	list-style-type: none;
-
 }
 .right-panel-in ul li {
 	padding-top: 8px;
@@ -155,6 +201,14 @@ a:hover {
 .right-panel-in ul li a:hover {
 	text-decoration: underline;
 }
+/*FIM PAINEL ESQUERDO*/
+
+/*INICIO ESTILO RODAPE*/
+/********************************************/
+/*Definiremos cor defundo, altura, largua, 
+posicionamento, cor de texto, suas margens, 
+alinhamento de texto e cores dos links*/
+/**********************************************/
 .footer {
 	background-color: #000000;
 	width: 800px;
@@ -166,7 +220,7 @@ a:hover {
 	margin-top: 20px;
 	text-align:center;
 }
-
 .footer a {
 	color: #FFFFFF;
 }
+/*FIM ESTILO RODAPE*/
